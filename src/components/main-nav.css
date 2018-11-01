@@ -2,4 +2,29 @@
     text-align: center;
 }
 
+.nav-link {
+    transition: color 1.4s;
+    -webkit-transition: color 1.4s;
+}
 
+
+
+.nav-link:after {
+    content: '';
+    width: 0px;
+    height: 1px;
+    display: block;
+    background: black;
+    transition: 1s;
+}
+
+.nav-link:hover:after {
+    width: 100%;
+    color: #c42000;
+    background: #c42000;
+}
+
+.nav-link:hover {
+    color: #c42000;
+    cursor: pointer;
+}

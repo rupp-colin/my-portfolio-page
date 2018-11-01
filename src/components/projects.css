@@ -55,7 +55,7 @@
     cursor: pointer;
 }
 
-.less:hover {
+.more:hover, .less:hover {
     color: #c42000;
     cursor: pointer;
 }
