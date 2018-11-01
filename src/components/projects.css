@@ -13,9 +13,13 @@
     padding: 6px;
     width: 56px;
     float: left;
+    -webkit-transition: color 2s;
+    transition: color 2s;
 }
 
-
+.tech-icon:hover {
+    color: #c42000;
+}
 
 .pic-container {
 }
@@ -31,7 +35,7 @@
     -webkit-transition: color 1.4s;
 }
 
-.more:after {
+.more:after, .less:after {
     content: '';
     width: 0px;
     height: 1px;
@@ -40,12 +44,13 @@
     transition: 1s;
 }
 
-.more:hover:after {
+.more:hover:after, .less:hover:after {
     width: 100%;
     color: #c42000;
     background: #c42000;
 }
-.more:hover {
+
+.more:hover, .less:hover:after {
     color: #c42000;
     cursor: pointer;
 }
