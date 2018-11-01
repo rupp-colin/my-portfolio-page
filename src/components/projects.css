@@ -1,5 +1,4 @@
 .project-left {
-    border-top: 3px dotted black;
 }
 
 .tech-icon {
@@ -29,6 +28,7 @@
     border-radius: 9px;
     margin-top: 12px;
     margin-bottom: 12px;
+    max-width: 100%;
 }
 
 .more .less {

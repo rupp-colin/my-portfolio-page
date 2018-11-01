@@ -1,14 +1,14 @@
 import React from 'react';
+import './projects-board.css';
 import Eatinarary from './project-eatinarary.js';
 
 export default function ProjectBoard(props) {
   return (
     <div>
-      <ul>
+      <h2 className="row" id="project-board-header">Projects</h2>
         <Eatinarary />
         <br/>
       {Project()}
-      </ul>
     </div>
   )
 }

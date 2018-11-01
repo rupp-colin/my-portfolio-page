@@ -17,9 +17,8 @@ export default class Eatinarary extends React.Component {
   render() {
   const moreInfo = this.state.moreInfo;
     return (
-      <li>
-        <div className="row">
-          <div className="row col-6">
+        <div className="row project-left">
+          <div className="col-6">
             <h2 >Eatinarary</h2>
             <p >Eatinarary is a meal prep app allowing users to have a one-stop-shop experience where they can search for
               recipes, upload their own recipes, and store them all in a personalized online recipe book. Everyone loves
@@ -30,12 +29,10 @@ export default class Eatinarary extends React.Component {
 
             {moreInfo === true && <TechList hide={() => this.showHide()}/>}
           </div>
-          <div className="row col-6 pic-container">
+          <div className="col-6 pic-container">
             <img src={EatinararySS}></img>
           </div>
         </div>
-
-      </li>
     )
   }
   }
