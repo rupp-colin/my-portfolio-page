@@ -31,11 +31,24 @@
     max-width: 100%;
 }
 
-.more .less {
+.more {
     -webkit-transition: color 1.4s;
 }
 
-.more:after, .less:after {
+.less {
+    -webkit-transition: color 1.4s;
+}
+
+.more:after {
+    content: '';
+    width: 0px;
+    height: 2px;
+    display: block;
+    background: black;
+    transition: 1s;
+}
+
+.less:after {
     content: '';
     width: 0px;
     height: 1px;
@@ -43,16 +56,16 @@
     background: black;
     transition: 1s;
 }
-
-.more:hover:after, .less:hover:after {
+.more:hover:after {
     width: 100%;
     color: #c42000;
     background: #c42000;
 }
 
-.more:hover, .less:hover:after {
+.less:hover:after {
+    width: 100%;
     color: #c42000;
-    cursor: pointer;
+    background: #c42000;
 }
 
 .more:hover, .less:hover {
