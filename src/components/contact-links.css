@@ -1,0 +1,24 @@
+.contact-icon {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+.contact-icon img {
+    border: 4px solid white;
+    border-radius: 50%;
+    background-color: white;
+    transition: background 1.8s;
+    transition: all 1.8s;
+    -webkit-transition: all 1.8s;
+}
+
+.contact-icon img:hover {
+    background: #c42000;
+    border-color: #c42000;
+    cursor: pointer;
+    box-shadow: inset 0px 0px 40px 40px #c42000;
+
+}
