@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import {BrowserRouter as Router, Route} from 'react-router-dom';
 
 import Header from './components/header.js';
 import MainNav from './components/main-nav.js';
@@ -11,7 +10,6 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <Router>
         <div>
           <Header />
           <ContactLinks />
@@ -19,7 +17,6 @@ class App extends Component {
           <AboutMe />
           <ProjectBoard />
         </div>
-      </Router>
     );
   }
 }
