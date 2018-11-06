@@ -30,7 +30,13 @@ export default class Eatinarary extends React.Component {
             {moreInfo === true && <TechList hide={() => this.showHide()}/>}
           </div>
           <div className="col-6 pic-container">
-            <img src={EatinararySS} alt="Eatinarary screenshot"></img>
+            <a
+              href="https://eatinarary.herokuapp.com/"
+              target="_blank"
+              ref="noopener noreferrer"
+            >
+              <img src={EatinararySS} alt="Eatinarary screenshot"></img>
+            </a>
           </div>
         </div>
     )
