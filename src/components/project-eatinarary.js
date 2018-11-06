@@ -5,7 +5,7 @@ import './projects.css';
 export default class Eatinarary extends React.Component {
 
   state = {
-    moreInfo: false
+    moreInfo: true
   }
 
   showHide() {
@@ -30,7 +30,7 @@ export default class Eatinarary extends React.Component {
             {moreInfo === true && <TechList hide={() => this.showHide()}/>}
           </div>
           <div className="col-6 pic-container">
-            <img src={EatinararySS}></img>
+            <img src={EatinararySS} alt="Eatinarary screenshot"></img>
           </div>
         </div>
     )
@@ -42,29 +42,29 @@ export default class Eatinarary extends React.Component {
       <div>
         <ul className="col-12">
           <li className="tech-icon">
-            <i class="devicon-react-original-wordmark"></i>
+            <i className="devicon-react-original-wordmark"></i>
           </li>
           <li className="tech-icon">
-            <i class="devicon-express-original"></i>
+            <i className="devicon-express-original"></i>
           </li>
           <li className="tech-icon">
-            <i class="devicon-nodejs-plain"></i>
+            <i className="devicon-nodejs-plain"></i>
           </li>
           <li className="tech-icon">
-            <i class="devicon-html5-plain-wordmark"></i>
+            <i className="devicon-html5-plain-wordmark"></i>
           </li>
           <li className="tech-icon">
-            <i class="devicon-css3-plain-wordmark"></i>
+            <i className="devicon-css3-plain-wordmark"></i>
           </li>
 
           <li className="tech-icon">
-            <i class="devicon-javascript-plain"></i>
+            <i className="devicon-javascript-plain"></i>
           </li>
           <li className="tech-icon">
-            <i class="devicon-mongodb-plain-wordmark"></i>
+            <i className="devicon-mongodb-plain-wordmark"></i>
           </li>
           <li className="tech-icon">
-            <i class="devicon-heroku-original-wordmark"></i>
+            <i className="devicon-heroku-original-wordmark"></i>
           </li>
         </ul>
         <p className="less" onClick={() => props.hide()}>less {"<<<"} </p>

@@ -8,13 +8,25 @@ export default function ContactLinks(props) {
   return (
     <div className="row contact-links">
       <div className="col-4 contact-icon">
-        <img src={LinkedInIcon}></img>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.linkedin.com/in/colin-r-5b790b167/">
+          <img src={LinkedInIcon} alt="linked in icon"></img>
+        </a>
       </div>
       <div className="col-4 contact-icon">
-        <img src={GitIcon}></img>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/rupp-colin">
+          <img src={GitIcon} alt="github icon"></img>
+        </a>
       </div>
       <div className="col-4 contact-icon">
-        <img src={EmailIcon}></img>
+        <a href="mailto:rupp.colin@gmail.com">
+          <img src={EmailIcon} alt="email icon"></img>
+        </a>
       </div>
 
     </div>
