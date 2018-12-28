@@ -1,15 +1,32 @@
+.main-nav {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    border-bottom: 3px dotted black;
+}
 .main-nav p {
     text-align: center;
 }
+.main-nav a {
+    text-decoration: none;
+    text-align: center;
+    margin-top: 22.4px;
+    margin-bottom: 22.4px;
+}
 
-.nav-link {
+.main-nav a:visited {
+    color: black;
+}
+
+.nav-link, .nav-link:visited {
     transition: color 1.4s;
     -webkit-transition: color 1.4s;
 }
 
 
 
-.nav-link:after {
+.nav-link:after, .nav-link:visited:after {
     content: '';
     width: 0px;
     height: 1px;
@@ -18,13 +35,13 @@
     transition: 1s;
 }
 
-.nav-link:hover:after {
+.nav-link:hover:after, .nav-link:visited:hover:after {
     width: 100%;
     color: #c42000;
     background: #c42000;
 }
 
-.nav-link:hover {
+.nav-link:hover, .nav-link:visited:hover {
     color: #c42000;
     cursor: pointer;
 }
