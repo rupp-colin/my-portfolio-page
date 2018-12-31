@@ -21,14 +21,14 @@ export default class Echar extends React.Component {
           <a
             href="https://spaced-repetition-cc.herokuapp.com/"
             target="_blank"
-            ref="noopener noreferrer"
+            rel="noopener noreferrer"
           >
             <img src={ScreenShotOne} alt="screnshot of main app page"></img>
           </a>
           <a
             href="https://spaced-repetition-cc.herokuapp.com/"
             target="_blank"
-            ref="noopener noreferrer"
+            rel="noopener noreferrer"
           >
             <img src={ScreenShotTwo} alt="screen shot of user progress page"></img>
           </a>
