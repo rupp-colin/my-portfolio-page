@@ -5,6 +5,7 @@ import MainNav from './components/main-nav.js';
 import AboutMe from './components/about-me.js';
 import ProjectBoard from './components/projects-board.js';
 import ContactLinks from './components/contact-links.js';
+import Footer from './components/footer.js';
 import './App.css';
 
 class App extends Component {
@@ -16,6 +17,7 @@ class App extends Component {
           <MainNav />
           <AboutMe />
           <ProjectBoard />
+          <Footer />
         </div>
     );
   }
