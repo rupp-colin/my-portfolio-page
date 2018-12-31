@@ -32,14 +32,14 @@ export default class Truckd extends React.Component {
           <a
             href="https://mountain-men-truckd.herokuapp.com/"
             target="_blank"
-            ref="noopener noreferrer"
+            rel="noopener noreferrer"
           >
             <img src={ScreenShotOne} alt="screnshot of main app page"></img>
           </a>
           <a
             href="https://mountain-men-truckd.herokuapp.com/"
             target="_blank"
-            ref="noopener noreferrer"
+            rel="noopener noreferrer"
           >
             <img src={ScreenShotTwo} alt="screen shot of user progress page"></img>
           </a>
