@@ -18,8 +18,8 @@ export default class Truckd extends React.Component {
     return (
       <div className="row project-left">
         <div className="col-6">
-          <h2>Truck'd</h2>
-          <p>Truck'd is a fullstack project that connects users who are seeking help moving with users
+          <h2 className="project-title">Truck'd</h2>
+          <p className="project-desc">Truck'd is a fullstack project that connects users who are seeking help moving with users
             who own a truck and are looking to make some quick cash. Through use of the google maps
             API, users can easily find or post jobs.  Drivers are able to bid on jobs, ensuring the
             job poster gets the best deal, and drivers get a reasonable rate for their time and

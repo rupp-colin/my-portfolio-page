@@ -5,9 +5,17 @@
     background-color: white;
     border-bottom: 3px dotted black;
 }
+
+@media only screen and (max-width: 575px) {
+
+    .main-nav {
+        position: static;
+    }
+}
 .main-nav p {
     text-align: center;
 }
+
 .main-nav a {
     text-decoration: none;
     text-align: center;
@@ -24,7 +32,10 @@
     -webkit-transition: color 1.4s;
 }
 
-
+a.nav-link {
+    margin-top: 18px;
+    margin-bottom: 12px;
+}
 
 .nav-link:after, .nav-link:visited:after {
     content: '';

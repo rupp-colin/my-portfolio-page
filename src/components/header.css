@@ -4,6 +4,10 @@
     align-items: center;
 }
 
+.header div {
+    margin-top: 50px;
+}
+
 #i-am-colin {
     display: inline;
     text-align: left;

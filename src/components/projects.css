@@ -1,4 +1,14 @@
-.project-left {
+.project-left, .project-right {
+    margin-bottom: 50px;
+}
+
+.project-title {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.project-desc {
+    font-size: 20px;
 }
 
 .tech-icon {

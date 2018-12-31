@@ -20,8 +20,8 @@ export default class Eatinarary extends React.Component {
     return (
         <div className="row project-left">
           <div className="col-6">
-            <h2 >Eatinarary</h2>
-            <p >Eatinarary is a meal prep app allowing users to have a one-stop-shop experience where they can search for
+            <h2 className="project-title">Eatinarary</h2>
+            <p className="project-desc">Eatinarary is a meal prep app allowing users to have a one-stop-shop experience where they can search for
               recipes, upload their own recipes, and store them all in a personalized online recipe book. Everyone loves
               food! Eatinarary makes it simpler to find and love the food you love.
             </p>

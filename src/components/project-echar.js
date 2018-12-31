@@ -34,8 +34,8 @@ export default class Echar extends React.Component {
           </a>
         </div>
         <div className="col-6">
-          <h2>Echar Agua al Mar</h2>
-          <p> Echar Agua al Mar (literally meaning to throw water at the sea) is a fullstack
+          <h2 className="project-title">Echar Agua al Mar</h2>
+          <p className="project-desc"> Echar Agua al Mar (literally meaning to throw water at the sea) is a fullstack
             flashcard app that uses spaced repetition to help users learn spanish vocabulary words.
             What makes this app different from other flashcard apps is the use of an algorithm that
             determines how often a word should be shown to a learner in order to maximize learning

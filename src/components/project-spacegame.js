@@ -35,8 +35,8 @@ export default class SpaceGame extends React.Component {
           </a>
         </div>
         <div className="col-6">
-          <h2>Definitely Not Galaga</h2>
-          <p>"Definitely Not Galaga" is just what it sounds like.  It is
+          <h2 className="project-title">Definitely Not Galaga</h2>
+          <p className="project-desc">"Definitely Not Galaga" is just what it sounds like.  It is
             NOT the retro arcade game Galaga.  It IS, however,
             a proof of concept game that resembles the old arcade
             space shooters that I grew up playing.  This project started as
