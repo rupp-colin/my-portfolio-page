@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Footer(props) {
   return (
-    <footer>
+    <footer id="lets-talk">
       <h2 className="row">Lets talk!</h2>
       <div className="row">
         <p><a href="https://docs.google.com/document/d/1VaGXz6-6S9AhlMHQcSEarB54jRGqkumdGURiMAuH93M/edit?usp=sharing">Colin Rupp</a></p>

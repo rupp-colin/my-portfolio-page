@@ -16,7 +16,12 @@ export default function MainNav(props) {
       >
         <span>Projects</span>
       </a>
-      <p className="nav-link col-4">Contact</p>
+      <a
+        className="nav-link col-4"
+        href="#lets-talk"
+      >
+        <span>Contact</span>
+      </a>
     </div>
   )
 }
