@@ -34,14 +34,14 @@ export default class Eatinarary extends React.Component {
             <a
               href="https://eatinarary.herokuapp.com/"
               target="_blank"
-              ref="noopener noreferrer"
+              rel="noopener noreferrer"
             >
               <img src={EatinararySS} alt="Eatinarary screenshot"></img>
             </a>
             <a
               href="https://eatinarary.herokuapp.com/"
               target="_blank"
-              ref="noopener noreferrer"
+              rel="noopener noreferrer"
             >
               <img src={EatinararySSTwo} alt="Eatinarary screenshot"></img>
             </a>
@@ -62,7 +62,7 @@ export default class Eatinarary extends React.Component {
             <i className="devicon-express-original"></i>
           </li>
           <li className="tech-icon">
-            <i class="devicon-nodejs-plain-wordmark"></i>
+            <i className="devicon-nodejs-plain-wordmark"></i>
           </li>
           <li className="tech-icon">
             <i className="devicon-html5-plain-wordmark"></i>

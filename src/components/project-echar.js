@@ -19,14 +19,14 @@ export default class Echar extends React.Component {
       <div className="row project-right">
         <div className="col-6 pic-container">
           <a
-            href=""
+            href="https://spaced-repetition-cc.herokuapp.com/"
             target="_blank"
             ref="noopener noreferrer"
           >
             <img src={ScreenShotOne} alt="screnshot of main app page"></img>
           </a>
           <a
-            href=""
+            href="https://spaced-repetition-cc.herokuapp.com/"
             target="_blank"
             ref="noopener noreferrer"
           >

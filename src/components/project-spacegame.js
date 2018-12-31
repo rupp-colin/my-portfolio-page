@@ -20,16 +20,16 @@ export default class SpaceGame extends React.Component {
       <div className="row project-right">
         <div className="col-6 pic-container">
           <a
-            href=""
+            href="https://github.com/rupp-colin/definitely_not_galaga"
             target="_blank"
-            ref="noopener noreferrer"
+            rel="noopener noreferrer"
           >
             <img src={TitleScreenShot} alt="title screen for game"></img>
           </a>
           <a
-            href=""
+            href="https://github.com/rupp-colin/definitely_not_galaga"
             target="_blank"
-            ref="noopener noreferrer"
+            rel="noopener noreferrer"
           >
             <img src={ScreenShot} alt="screen shot of Definitely Not Galaga"></img>
           </a>
