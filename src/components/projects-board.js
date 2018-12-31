@@ -19,8 +19,3 @@ export default function ProjectBoard(props) {
     </div>
   )
 }
-
-
-function Project() {
-  return <li>this is a test</li>
-}
