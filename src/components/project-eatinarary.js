@@ -1,5 +1,6 @@
 import React from 'react';
-import EatinararySS from '../Eatinarary-screenshot1.png';
+import EatinararySS from '../images/eatinarary-ss1.png';
+import EatinararySSTwo from '../images/eatinarary-ss2.png';
 import './projects.css';
 
 export default class Eatinarary extends React.Component {
@@ -37,6 +38,13 @@ export default class Eatinarary extends React.Component {
             >
               <img src={EatinararySS} alt="Eatinarary screenshot"></img>
             </a>
+            <a
+              href="https://eatinarary.herokuapp.com/"
+              target="_blank"
+              ref="noopener noreferrer"
+            >
+              <img src={EatinararySSTwo} alt="Eatinarary screenshot"></img>
+            </a>
           </div>
         </div>
     )
@@ -54,7 +62,7 @@ export default class Eatinarary extends React.Component {
             <i className="devicon-express-original"></i>
           </li>
           <li className="tech-icon">
-            <i className="devicon-nodejs-plain"></i>
+            <i class="devicon-nodejs-plain-wordmark"></i>
           </li>
           <li className="tech-icon">
             <i className="devicon-html5-plain-wordmark"></i>
