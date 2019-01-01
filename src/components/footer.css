@@ -46,6 +46,6 @@ p.contact-link {
     cursor: pointer;
 }
 
-.spacer {
-    margin: 20px;
+div.spacer {
+    min-height: 600px;
 }
