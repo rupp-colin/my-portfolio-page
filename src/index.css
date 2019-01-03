@@ -17,3 +17,8 @@ body {
     font-family: "Maven Pro", sans-serif;
     font-size: 1.4em;
 }
+
+a, a:hover {
+    text-decoration: none;
+    color: black;
+}
