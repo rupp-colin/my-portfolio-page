@@ -43,6 +43,7 @@ export default class Truckd extends React.Component {
           >
             <img src={ScreenShotTwo} alt="screen shot of user progress page"></img>
           </a>
+          <LiveLinks />
         </div>
       </div>
     )
@@ -85,9 +86,30 @@ export default class Truckd extends React.Component {
             <i className="devicon-trello-plain"></i>
           </li>
         </ul>
-        <p className="less" onClick={() => props.hide()}>less {"<<<"}</p>
+        {/*<p className="less" onClick={() => props.hide()}>less {"<<<"}</p>*/}
       </div>
     )
   }
 
 
+  function LiveLinks(props) {
+    return (
+      <div className="row">
+        <a
+          className="col-4 live-link"
+          href="https://github.com/thinkful-ei24/mountain-men-client/tree/master/src"
+        >Client Repo {">>>"}
+        </a>
+        <a
+          className="col-4 live-link"
+          href="https://github.com/thinkful-ei24/mountain-men-server"
+        >Server Repo {">>>"}
+        </a>
+        <a
+          className="col-4 live-link"
+          href="https://mountain-men-truckd.herokuapp.com"
+        >Live Link {">>>"}
+        </a>
+      </div>
+    )
+  }
