@@ -5,7 +5,7 @@ import profilePic from '../images/colin.png';
 export default function AboutMe(props) {
   return(
     <div id="about-me" className="row">
-      <h2>About Me</h2>
+      <h2 id="about-header">About Me</h2>
       <img
         id="pic-of-me"
         src={profilePic}

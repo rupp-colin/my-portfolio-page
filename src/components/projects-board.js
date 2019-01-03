@@ -7,8 +7,8 @@ import Truckd from './project-truckd.js';
 
 export default function ProjectBoard(props) {
   return (
-    <div>
-      <h2 className="row" id="project-board-header">Projects</h2>
+    <div id="project-board-header">
+      <h2 className="row" >Projects</h2>
         <Truckd />
         <br/>
         <Echar />

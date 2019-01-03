@@ -1,11 +1,18 @@
-h2 {
-    margin-top: 8px;
+#about-header {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 #pic-of-me {
     float: left;
-    margin-right: 12px;
+    margin-right: 32px;
 }
 
 #about-me p {
     font-size:20px;
+}
+
+#about-me {
+    padding-bottom: 57px;
+    border-bottom: 3px dotted black;
+
 }
