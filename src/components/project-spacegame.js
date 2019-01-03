@@ -17,7 +17,7 @@ export default class SpaceGame extends React.Component {
   render() {
     const moreInfo = this.state.moreInfo;
     return (
-      <div className="row project-right">
+      <div className="row project-right" id="final-project">
         <div className="col-6 pic-container">
           <a
             href="https://github.com/rupp-colin/definitely_not_galaga"
@@ -33,6 +33,7 @@ export default class SpaceGame extends React.Component {
           >
             <img src={ScreenShot} alt="screen shot of Definitely Not Galaga"></img>
           </a>
+          <LiveLinks />
         </div>
         <div className="col-6">
           <h2 className="project-title">Definitely Not Galaga</h2>
@@ -61,7 +62,19 @@ export default class SpaceGame extends React.Component {
             <i className="devicon-python-plain"></i>
           </li>
         </ul>
-        <p className="less" onClick={() => props.hide()}>less {"<<<"}</p>
+        {/*<p className="less" onClick={() => props.hide()}>less {"<<<"}</p>*/}
+      </div>
+    )
+  }
+
+  function LiveLinks(props) {
+    return (
+      <div className="row">
+        <a
+          className="col-12 live-link"
+          href="https://github.com/rupp-colin/definitely_not_galaga"
+        >Github Repo {">>>"}
+        </a>
       </div>
     )
   }

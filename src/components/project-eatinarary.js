@@ -45,6 +45,7 @@ export default class Eatinarary extends React.Component {
             >
               <img src={EatinararySSTwo} alt="Eatinarary screenshot"></img>
             </a>
+          <LiveLinks />
           </div>
         </div>
     )
@@ -81,7 +82,29 @@ export default class Eatinarary extends React.Component {
             <i className="devicon-heroku-original-wordmark"></i>
           </li>
         </ul>
-        <p className="less" onClick={() => props.hide()}>less {"<<<"} </p>
+        {/*<p className="less" onClick={() => props.hide()}>less {"<<<"} </p>*/}
+      </div>
+    )
+  }
+
+  function LiveLinks(props) {
+    return (
+      <div className="row">
+        <a
+          className="col-4 live-link"
+          href="https://github.com/rupp-colin/eatinarary-client"
+        >Client Repo {">>>"}
+        </a>
+        <a
+          className="col-4 live-link"
+          href="https://github.com/rupp-colin/eatinarary-server"
+        >Server Repo {">>>"}
+        </a>
+        <a
+          className="col-4 live-link"
+          href="https://eatinarary.herokuapp.com/"
+        >Live Link {">>>"}
+        </a>
       </div>
     )
   }
