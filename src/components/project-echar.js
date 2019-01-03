@@ -32,6 +32,7 @@ export default class Echar extends React.Component {
           >
             <img src={ScreenShotTwo} alt="screen shot of user progress page"></img>
           </a>
+          <LiveLinks />
         </div>
         <div className="col-6">
           <h2 className="project-title">Echar Agua al Mar</h2>
@@ -85,3 +86,24 @@ export default class Echar extends React.Component {
   }
 
 
+  function LiveLinks(props) {
+    return (
+      <div className="row">
+        <a
+          className="col-4 live-link"
+          href="https://github.com/thinkful-ei24/cameron-colin-spaced-repetition-client"
+        >Client Repo {">>>"}
+        </a>
+        <a
+          className="col-4 live-link"
+          href="https://github.com/thinkful-ei24/colin-cameron-spaced-repetition-server"
+        >Server Repo {">>>"}
+        </a>
+        <a
+          className="col-4 live-link"
+          href="https://spaced-repetition-cc.herokuapp.com"
+        >Live Link {">>>"}
+        </a>
+      </div>
+    )
+  }
