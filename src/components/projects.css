@@ -1,5 +1,9 @@
+#final-project {
+    padding-bottom: 60px;
+    border-bottom: 3px dotted black;
+}
 .project-left, .project-right {
-    margin-bottom: 50px;
+    padding-bottom: 60px;
 }
 
 .project-title {
@@ -41,15 +45,19 @@
     max-width: 100%;
 }
 
-.more {
+a.live-link {
+    font-size: 16px;
+}
+
+.more,
+.less,
+a.live-link {
     -webkit-transition: color 1.4s;
 }
 
-.less {
-    -webkit-transition: color 1.4s;
-}
-
-.more:after {
+.more:after,
+.less:after,
+a.live-link:after {
     content: '';
     width: 0px;
     height: 2px;
@@ -58,27 +66,17 @@
     transition: 1s;
 }
 
-.less:after {
-    content: '';
-    width: 0px;
-    height: 1px;
-    display: block;
-    background: black;
-    transition: 1s;
-}
-.more:hover:after {
+.more:hover:after,
+.less:hover:after,
+a.live-link:hover:after {
     width: 100%;
     color: #c42000;
     background: #c42000;
 }
 
-.less:hover:after {
-    width: 100%;
-    color: #c42000;
-    background: #c42000;
-}
-
-.more:hover, .less:hover {
+.more:hover,
+.less:hover,
+a.live-link:hover {
     color: #c42000;
     cursor: pointer;
 }
