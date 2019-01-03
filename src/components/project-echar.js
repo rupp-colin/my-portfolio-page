@@ -80,7 +80,7 @@ export default class Echar extends React.Component {
             <i className="devicon-heroku-original-wordmark"></i>
           </li>
         </ul>
-        <p className="less" onClick={() => props.hide()}>less {"<<<"}</p>
+        {/*<p className="less" onClick={() => props.hide()}>less {"<<<"}</p>*/}
       </div>
     )
   }
