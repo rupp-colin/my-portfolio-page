@@ -12,11 +12,8 @@
         position: static;
     }
 }
-.main-nav p {
-    text-align: center;
-}
 
-.main-nav a {
+.main-nav a, .main-nav p {
     text-decoration: none;
     text-align: center;
     margin-top: 22.4px;

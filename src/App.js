@@ -13,10 +13,10 @@ class App extends Component {
     return (
         <div>
           <Header />
-          <ContactLinks />
+          {/*<ContactLinks />*/}
           <MainNav />
-          <AboutMe />
           <ProjectBoard />
+          <AboutMe />
           <Footer />
         </div>
     );
