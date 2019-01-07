@@ -4,7 +4,7 @@ import Header from './components/header.js';
 import MainNav from './components/main-nav.js';
 import AboutMe from './components/about-me.js';
 import ProjectBoard from './components/projects-board.js';
-import ContactLinks from './components/contact-links.js';
+import Summary from './components/summary.js';
 import Footer from './components/footer.js';
 import './App.css';
 
@@ -13,10 +13,10 @@ class App extends Component {
     return (
         <div>
           <Header />
-          <ContactLinks />
+          <Summary />
           <MainNav />
-          <AboutMe />
           <ProjectBoard />
+          <AboutMe />
           <Footer />
         </div>
     );

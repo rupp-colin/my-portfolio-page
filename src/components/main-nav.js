@@ -6,15 +6,15 @@ export default function MainNav(props) {
     <div className="row main-nav">
       <a
         className="nav-link col-4"
-        href="#about-me"
-      >
-        <span>About Me</span>
-      </a>
-      <a
-        className="nav-link col-4"
         href="#project-board-header"
       >
         <span>Projects</span>
+      </a>
+      <a
+        className="nav-link col-4"
+        href="#about-me"
+      >
+        <span>About Me</span>
       </a>
       <a
         className="nav-link col-4"
