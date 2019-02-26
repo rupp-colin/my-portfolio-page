@@ -1,6 +1,7 @@
 #i-am-colin {
     text-align: left;
     font-size: 56px;
+    margin-left: 20px;
 }
 
 #my-title {
@@ -12,7 +13,7 @@
     text-align: right;
 }
 .header-icon {
-    display: inline;
+    display: flex;
     margin: 12px;
 }
 
@@ -24,7 +25,12 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 50px;
+    width: 40%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
 }
 
 @media only screen and (max-width: 576px) {

@@ -6,11 +6,11 @@ import './header.css';
 
 export default function Header(props){
   return (
-    <div className="row header">
-      <div className="col-6">
+    <div className="header">
+      <div className="">
         <h1 id="i-am-colin">Colin Rupp</h1>
       </div>
-        <div className="icon-container col-6">
+        <div className="icon-container">
         <div className="header-icon">
           <a
             target="_blank"
@@ -33,7 +33,6 @@ export default function Header(props){
           </a>
         </div>
       </div>
-      {/*<p className="col-12">full stack developer</p>*/}
     </div>
   )
 }
