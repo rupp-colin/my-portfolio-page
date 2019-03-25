@@ -14,6 +14,10 @@ const LandingSection = () => {
       </section>
 
       <section id="right-landing">
+        <div className="welcome-text">
+          <h1>Welcome</h1>
+          <p>I make <i>fullstack web applications</i> to support my dream of creating and performing music.</p>
+        </div>
 
       </section>
     </div>
