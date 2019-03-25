@@ -18,12 +18,14 @@ class App extends Component {
           <SectionHeader header="Projects" />
           <SectionHeader header="Experience" />
           <SectionHeader header="Bio" />
+          {/*
           <Header />
           <Summary />
           <MainNav />
           <ProjectBoard />
           <AboutMe />
           <Footer />
+          */}
         </div>
     );
   }
