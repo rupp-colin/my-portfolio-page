@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import LandingSection from './components/Landing.js';
+import SectionHeader from './components/SectionHeader.js';
 import Header from './components/header.js';
 import MainNav from './components/main-nav.js';
 import AboutMe from './components/about-me.js';
@@ -14,6 +15,9 @@ class App extends Component {
     return (
         <div>
           <LandingSection />
+          <SectionHeader header="Projects" />
+          <SectionHeader header="Experience" />
+          <SectionHeader header="Bio" />
           <Header />
           <Summary />
           <MainNav />
