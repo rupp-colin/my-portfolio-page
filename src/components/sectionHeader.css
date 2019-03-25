@@ -1,0 +1,29 @@
+
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.skew-more, .skew-less {
+    margin: 30px;
+    width: 14vw;
+    height: 6vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.skew-more {
+    background-color: lightblue;
+    transform: rotate(-10deg);
+
+}
+
+.skew-less {
+    background-color: lightgreen;
+    margin: 12px;
+    transform: rotate(6deg);
+
+}
