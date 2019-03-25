@@ -1,7 +1,7 @@
 import React from 'react';
-import GitIcon from '../github_circle_black.png';
-import EmailIcon from '../email_circle_black.png';
-import LinkedInIcon from '../linkedin_circle_black-512.png';
+import GitIcon from '../images/github_circle_black.png';
+import EmailIcon from '../images/email_circle_black.png';
+import LinkedInIcon from '../images/linkedin_circle_black-512.png';
 import './contact-links.css';
 
 export default function ContactLinks(props) {
@@ -28,7 +28,6 @@ export default function ContactLinks(props) {
           <img src={EmailIcon} alt="email icon"></img>
         </a>
       </div>
-
     </div>
   )
 }

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import LandingSection from './components/Landing.js';
 import Header from './components/header.js';
 import MainNav from './components/main-nav.js';
 import AboutMe from './components/about-me.js';
@@ -12,6 +13,7 @@ class App extends Component {
   render() {
     return (
         <div>
+          <LandingSection />
           <Header />
           <Summary />
           <MainNav />

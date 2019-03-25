@@ -1,6 +1,6 @@
 import React from 'react';
-import TitleScreenShot from '../TitleScreenShot.png';
-import ScreenShot from '../pygame-screenshot.png';
+import TitleScreenShot from '../images/TitleScreenShot.png';
+import ScreenShot from '../images/pygame-screenshot.png';
 
 export default class SpaceGame extends React.Component {
 

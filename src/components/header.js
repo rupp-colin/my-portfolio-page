@@ -1,7 +1,7 @@
 import React from 'react';
-import GitIcon from '../github_circle_black.png';
-import EmailIcon from '../email_circle_black.png';
-import LinkedInIcon from '../linkedin_circle_black-512.png';
+import GitIcon from '../images/github_circle_black.png';
+import EmailIcon from '../images/email_circle_black.png';
+import LinkedInIcon from '../images/linkedin_circle_black-512.png';
 import './header.css';
 
 export default function Header(props){
@@ -10,7 +10,7 @@ export default function Header(props){
       <div className="">
         <h1 id="i-am-colin">Colin Rupp</h1>
       </div>
-        <div className="icon-container">
+      <div className="icon-container">
         <div className="header-icon">
           <a
             target="_blank"
